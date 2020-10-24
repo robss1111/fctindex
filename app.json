@@ -6,15 +6,28 @@
     "env":{
         "API_ID":{
             "description":"Telegram api_id obtained from https://my.telegram.org/apps.",
-            "value":""
+            "value":"1331180"
         },
         "API_HASH":{
             "description":"Telegram api_hash obtained from https://my.telegram.org/apps.",
-            "value":""
+            "value":"c08eef29d9c810c82dd3e2c4d72e5903"
         },
         "INDEX_SETTINGS":{
             "description":"Refer project docs for info.",
-            "value": ""
+            "value": "{
+                       "index_all": false,
+                       "index_private":false,
+                        "index_group": false,
+                       "index_channel": false,
+                        "exclude_chats": [],
+                      "include_chats": [-1001430635532],
+                      "otg": {
+                                "enable": false,
+                                "include_private": false,
+                                  "include_group": true,
+                                    "include_channel": true
+                            }
+                  }"
         },
         "SESSION_STRING":{
             "description":"Your session string.",
